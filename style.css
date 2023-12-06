@@ -1,0 +1,94 @@
+*{  /*To the entire website */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px; /* Adding padding around the entire website */
+    background: linear-gradient(45deg, #b81717,#5ab78d);
+}
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#viewButtons {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#viewButtons button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    box-shadow: 0 0 4px 3px grey;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.images {
+    max-width: 100%; /* To Ensure images don't exceed their container */
+    height: auto;    /* Maintaining aspect ratio */
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.table-view .card {
+    width: 100%;
+}
+
+.grid-view .card,
+.table-view .card {
+    margin-bottom: 2em;
+}
+
+.category,
+.price {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+
+
+#searchContainer {
+    margin-bottom: 1.5rem;
+}
+
+#searchInput {
+    padding: 0.5rem;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+#viewButtons {
+    text-align: right; /* To Align the buttons to the right */
+    margin-bottom: 1.5rem;
+    margin-top: auto;
+}
+
+#viewButtons button {
+    margin-left: 1rem; /* To Add some spacing between buttons */
+}
+
+
